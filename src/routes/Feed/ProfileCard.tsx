@@ -31,14 +31,14 @@ export default ProfileCard
 const StyledWrapper = styled.div`
   > .title {
     padding: 0.25rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0rem;
   }
   > .content {
     margin-bottom: 2.25rem;
     border-radius: 1rem;
     width: 100%;
     background-color: ${({ theme }) =>
-      theme.scheme === "light" ? "white" : theme.colors.gray4};
+    theme.scheme === "light" ? "white" : theme.colors.gray4};
     @media (min-width: 768px) {
       padding: 1rem;
     }

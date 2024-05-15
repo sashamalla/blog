@@ -6,10 +6,10 @@ class MyDocument extends Document {
     return (
       <Html lang={CONFIG.lang}>
         <Head>
-          <link rel="icon" href="/logo.png" />
+          <link rel="icon" href="/logo.png" sizes="32x32" />
           <link
             rel="logo"
-            sizes="192x192"
+            sizes="230x310"
             href="/logo.png"
           ></link>
           <link

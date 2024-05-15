@@ -3,9 +3,9 @@ const CONFIG = {
   profile: {
     name: "Commahorror",
     image: "/logo.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
+    role: "professional hatemonger",
+    bio: "This is your bio. The image, role, and bio are all customisable",
+    email: "darshanarlsingh@gmail.com",
     linkedin: "",
     github: "",
     instagram: "",
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "CommaHorror",
-    description: "welcome to CommaHorror!",
+    title: "Comma Horror",
+    description: "welcome to Comma Horror!",
   },
 
   // CONFIG configration (required)

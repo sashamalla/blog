@@ -7,7 +7,7 @@ import { colors } from "src/styles"
 export const getColorClassByName = (name: string): string => {
   try {
     let sum = 0
-    name.split("").forEach((alphabet) => (sum = sum + alphabet.charCodeAt(0)))
+    name.split("").forEach((alphabet) => (sum = sum + alphabet.charCodeAt(0) + 2))
     const colorKey = sum
       .toString(16)
       ?.[sum.toString(16).length - 1].toUpperCase()
