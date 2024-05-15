@@ -25,6 +25,5 @@ const StyledWrapper = styled(Link)`
   span {
     font-size: 1rem; /* Adjust font size as needed */
     line-height: 1; /* Make the line-height equal to the font size */
-    color: ${({ theme }) => theme.colors.primary}; /* Example styling */
   }
 `
