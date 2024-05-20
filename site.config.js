@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `CommaHorror`,
+      name: `CommaHorror!`,
       href: "",
     },
   ],
